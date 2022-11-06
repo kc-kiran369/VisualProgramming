@@ -19,7 +19,11 @@ namespace VisualProgramming
             //Patterns.Pattern3();
             //CelToFahren.ConvertCintoF();
             //NepalFlag.DrawFlag();
-            String.StringPalindrome();
+            //String.StringPalindrome();
+            //NumberManip.Palindrome();
+            //NumberManip.Factorial();
+            //Test.Function();
+            //JaggedArray.Function();
 
             Console.ReadKey();
         }

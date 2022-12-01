@@ -4,7 +4,7 @@ namespace VisualProgramming
 {
     class Application
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.DarkGreen;
@@ -22,8 +22,15 @@ namespace VisualProgramming
             //String.StringPalindrome();
             //NumberManip.Palindrome();
             //NumberManip.Factorial();
-            //Test.Function();
             //JaggedArray.Function();
+            //StructStudent.Function();
+
+            //Event
+            //Event.Singelton.ExampleEvent += () =>
+            //{
+            //    Console.WriteLine("Event Executed");
+            //};
+            //Event.Singelton.FireEvent();
 
             Console.ReadKey();
         }
